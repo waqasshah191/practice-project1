@@ -7,7 +7,7 @@ const app = express()
 
 const port = process.env.PORT || 3000
 
-mongoose.connect('mongodb://localhost/project1', {
+mongoose.connect('mongodb://localhost/project1-clone', {
   useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true
 })
 
